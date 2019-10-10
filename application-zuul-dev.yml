@@ -1,0 +1,14 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: KUANGGOU-ZUUL
+
+zuul:
+  ignoredServices: '*' #只能通过路由访问，不能使用服务名访问
+  routes:
+    plat:
+      serviceId: KUANGGOU-PLAT
+      path: /plat/**
+  prefix: /services
