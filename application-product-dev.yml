@@ -3,7 +3,11 @@ server:
 spring:
   application:
     name: KUANGGOU-PRODUCT
-
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///kuanggou-product?serverTimezone=GMT%2B8
+    username: root
+    password: root
 
 
 
