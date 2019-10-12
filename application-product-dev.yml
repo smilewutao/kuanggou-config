@@ -7,7 +7,10 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql:///kuanggou-product?serverTimezone=GMT%2B8
     username: root
-    password: root
+    password: 199678
+
+mybatis-plus:
+  mapper-locations: classpath*:cn/itsource/aigou/mapper/*Mapper.xml
 
 
 
