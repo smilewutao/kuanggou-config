@@ -12,6 +12,6 @@ zuul:
       serviceId: KUANGGOU-PLAT
       path: /plat/**
     product:
-      serviceId: AIGOU-PRODUCT
+      serviceId: KUANGGOU-PRODUCT
       path: /product/**
   prefix: /services
