@@ -14,4 +14,7 @@ zuul:
     product:
       serviceId: KUANGGOU-PRODUCT
       path: /product/**
+    common: #添加common公共服务的路由
+      serviceId: KUANGGOU-COMMON
+      path: /common/**
   prefix: /services
