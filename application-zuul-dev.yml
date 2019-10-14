@@ -18,3 +18,14 @@ zuul:
       serviceId: KUANGGOU-COMMON
       path: /common/**
   prefix: /services
+#设置zuul超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+ribbon:
+  ConnectTimeout: 6000
+  ReadTimeout: 6000
