@@ -10,7 +10,7 @@ spring:
     password: 199678
 
 mybatis-plus:
-  mapper-locations: classpath*:cn/itsource/aigou/mapper/*Mapper.xml
+  mapper-locations: classpath*:cn/itsource/kuanggou/mapper/*Mapper.xml
 
 
 
