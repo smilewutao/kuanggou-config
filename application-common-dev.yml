@@ -4,3 +4,6 @@ server:
 spring:
   application:
     name: KUANGGOU-COMMON #服务名称
+  data: 
+    elasticsearch: 
+      cluster-nodes: localhost:9300
