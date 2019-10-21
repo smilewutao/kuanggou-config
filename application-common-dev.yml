@@ -7,3 +7,9 @@ spring:
   data: 
     elasticsearch: 
       cluster-nodes: localhost:9300
+feign:
+ client:
+  config:
+   default:
+    connectTimeout: 10000
+     readTimeout: 10000
